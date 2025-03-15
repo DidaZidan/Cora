@@ -1,0 +1,48 @@
+.main{
+    padding-top: 20px;
+    display: flex;
+    background-image: url(img/banner/b1.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.main .bancontent{
+   text-align: center;
+
+}
+.main .bancontent h1{
+    font-size: 3rem;
+}
+.main .bancontent p{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.product-cards  .sliders{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+.product-cards  .sliders p{
+    align-items: center;
+    background-color: #088178;
+    padding: 10px 15px;
+    color: white;
+    transition: 0.2s;
+}
+.product-cards  .sliders a{
+    text-decoration: none;
+}
+.product-cards  .sliders p:hover{
+    background-color: #099e94;
+}
+.product-cards .cards a{
+    text-decoration: none;
+}  
+.product-cards .cards a .card .descripe,i{
+    color: black;
+}

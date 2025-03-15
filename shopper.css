@@ -1,0 +1,62 @@
+header{
+    background-color: #E3E6F3;;
+}
+.productdesc{
+    padding: 0px 50px 20px 50px;
+}
+.productdesc .conto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+.productdesc .conto .imgies .mino{
+    width: 350px;
+    cursor: pointer;
+}
+.productdesc .conto .imgies .collectimgi img{
+    width: 100px;
+    cursor: pointer;
+}
+.productdesc .conto .text p{
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+.productdesc .conto .text h3{
+    margin-bottom: 40px;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.productdesc .conto .text .price{
+    margin-bottom: 40px;
+    font-size: 1.8rem;
+    font-weight: 400;
+} 
+.productdesc .conto .text .btn{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.productdesc .conto .text .quant{
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+.productdesc .conto .text button{
+    color: white;
+    background-color: #088178;
+    padding: 10px 15px;
+    border: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.productdesc .conto .text .det{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.productdesc .conto .text pre{
+    line-height: 18px;
+}
